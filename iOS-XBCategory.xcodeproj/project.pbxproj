@@ -16,7 +16,6 @@
 		AB2848F71D701A1E004C3100 /* iOS_XBCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2848F61D701A1E004C3100 /* iOS_XBCategoryTests.m */; };
 		AB2849021D701A1E004C3100 /* iOS_XBCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849011D701A1E004C3100 /* iOS_XBCategoryUITests.m */; };
 		AB2849671D701B93004C3100 /* NSArray+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28491A1D701B92004C3100 /* NSArray+XBCategory.m */; };
-		AB2849681D701B93004C3100 /* NSAttributedString+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28491D1D701B92004C3100 /* NSAttributedString+XBCategory.m */; };
 		AB2849691D701B93004C3100 /* NSData+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849201D701B92004C3100 /* NSData+XBCategory.m */; };
 		AB28496A1D701B93004C3100 /* NSDictionary+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849231D701B92004C3100 /* NSDictionary+XBCategory.m */; };
 		AB28496B1D701B93004C3100 /* NSMutableArray+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849261D701B92004C3100 /* NSMutableArray+XBCategory.m */; };
@@ -34,16 +33,15 @@
 		AB2849771D701B93004C3100 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849461D701B92004C3100 /* UIImage+FEBoxBlur.m */; };
 		AB2849781D701B93004C3100 /* UIImage+TYLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849481D701B92004C3100 /* UIImage+TYLaunchImage.m */; };
 		AB2849791D701B93004C3100 /* UIImage+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28494A1D701B92004C3100 /* UIImage+XBCategory.m */; };
-		AB28497A1D701B93004C3100 /* UIImageView+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28494D1D701B93004C3100 /* UIImageView+Circle.m */; };
 		AB28497B1D701B93004C3100 /* UIMenuItem+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849501D701B93004C3100 /* UIMenuItem+XBCategory.m */; };
 		AB28497C1D701B93004C3100 /* UINavigationBar+NavigationBarBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849531D701B93004C3100 /* UINavigationBar+NavigationBarBackground.m */; };
-		AB28497D1D701B93004C3100 /* UITableView+CleanLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849571D701B93004C3100 /* UITableView+CleanLine.m */; };
 		AB28497E1D701B93004C3100 /* UITableView+Warn.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849591D701B93004C3100 /* UITableView+Warn.m */; };
 		AB28497F1D701B93004C3100 /* UITableViewCell+CellAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28495C1D701B93004C3100 /* UITableViewCell+CellAnimation.m */; };
 		AB2849801D701B93004C3100 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28495F1D701B93004C3100 /* UITextView+Placeholder.m */; };
 		AB2849811D701B93004C3100 /* UIView+XBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849621D701B93004C3100 /* UIView+XBAnimation.m */; };
 		AB2849821D701B93004C3100 /* UIView+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849641D701B93004C3100 /* UIView+XBCategory.m */; };
 		AB2849831D701B93004C3100 /* UIView+XBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2849661D701B93004C3100 /* UIView+XBFrame.m */; };
+		AB28498B1D704021004C3100 /* UITableView+ClearLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28498A1D704021004C3100 /* UITableView+ClearLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +80,6 @@
 		AB2849031D701A1E004C3100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2849191D701B92004C3100 /* NSArray+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XBCategory.h"; sourceTree = "<group>"; };
 		AB28491A1D701B92004C3100 /* NSArray+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XBCategory.m"; sourceTree = "<group>"; };
-		AB28491C1D701B92004C3100 /* NSAttributedString+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+XBCategory.h"; sourceTree = "<group>"; };
-		AB28491D1D701B92004C3100 /* NSAttributedString+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+XBCategory.m"; sourceTree = "<group>"; };
 		AB28491F1D701B92004C3100 /* NSData+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XBCategory.h"; sourceTree = "<group>"; };
 		AB2849201D701B92004C3100 /* NSData+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XBCategory.m"; sourceTree = "<group>"; };
 		AB2849221D701B92004C3100 /* NSDictionary+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XBCategory.h"; sourceTree = "<group>"; };
@@ -118,14 +114,10 @@
 		AB2849481D701B92004C3100 /* UIImage+TYLaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYLaunchImage.m"; sourceTree = "<group>"; };
 		AB2849491D701B92004C3100 /* UIImage+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XBCategory.h"; sourceTree = "<group>"; };
 		AB28494A1D701B92004C3100 /* UIImage+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XBCategory.m"; sourceTree = "<group>"; };
-		AB28494C1D701B92004C3100 /* UIImageView+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Circle.h"; sourceTree = "<group>"; };
-		AB28494D1D701B93004C3100 /* UIImageView+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Circle.m"; sourceTree = "<group>"; };
 		AB28494F1D701B93004C3100 /* UIMenuItem+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMenuItem+XBCategory.h"; sourceTree = "<group>"; };
 		AB2849501D701B93004C3100 /* UIMenuItem+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuItem+XBCategory.m"; sourceTree = "<group>"; };
 		AB2849521D701B93004C3100 /* UINavigationBar+NavigationBarBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+NavigationBarBackground.h"; sourceTree = "<group>"; };
 		AB2849531D701B93004C3100 /* UINavigationBar+NavigationBarBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+NavigationBarBackground.m"; sourceTree = "<group>"; };
-		AB2849561D701B93004C3100 /* UITableView+CleanLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CleanLine.h"; sourceTree = "<group>"; };
-		AB2849571D701B93004C3100 /* UITableView+CleanLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CleanLine.m"; sourceTree = "<group>"; };
 		AB2849581D701B93004C3100 /* UITableView+Warn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Warn.h"; sourceTree = "<group>"; };
 		AB2849591D701B93004C3100 /* UITableView+Warn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Warn.m"; sourceTree = "<group>"; };
 		AB28495B1D701B93004C3100 /* UITableViewCell+CellAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CellAnimation.h"; sourceTree = "<group>"; };
@@ -138,6 +130,8 @@
 		AB2849641D701B93004C3100 /* UIView+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBCategory.m"; sourceTree = "<group>"; };
 		AB2849651D701B93004C3100 /* UIView+XBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBFrame.h"; sourceTree = "<group>"; };
 		AB2849661D701B93004C3100 /* UIView+XBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBFrame.m"; sourceTree = "<group>"; };
+		AB2849891D704021004C3100 /* UITableView+ClearLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ClearLine.h"; sourceTree = "<group>"; };
+		AB28498A1D704021004C3100 /* UITableView+ClearLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ClearLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,8 +262,6 @@
 		AB28491B1D701B92004C3100 /* NSAttributeString */ = {
 			isa = PBXGroup;
 			children = (
-				AB28491C1D701B92004C3100 /* NSAttributedString+XBCategory.h */,
-				AB28491D1D701B92004C3100 /* NSAttributedString+XBCategory.m */,
 			);
 			path = NSAttributeString;
 			sourceTree = "<group>";
@@ -388,8 +380,6 @@
 		AB28494B1D701B92004C3100 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
-				AB28494C1D701B92004C3100 /* UIImageView+Circle.h */,
-				AB28494D1D701B93004C3100 /* UIImageView+Circle.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -422,8 +412,8 @@
 		AB2849551D701B93004C3100 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
-				AB2849561D701B93004C3100 /* UITableView+CleanLine.h */,
-				AB2849571D701B93004C3100 /* UITableView+CleanLine.m */,
+				AB2849891D704021004C3100 /* UITableView+ClearLine.h */,
+				AB28498A1D704021004C3100 /* UITableView+ClearLine.m */,
 				AB2849581D701B93004C3100 /* UITableView+Warn.h */,
 				AB2849591D701B93004C3100 /* UITableView+Warn.m */,
 			);
@@ -592,14 +582,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB28497C1D701B93004C3100 /* UINavigationBar+NavigationBarBackground.m in Sources */,
-				AB2849681D701B93004C3100 /* NSAttributedString+XBCategory.m in Sources */,
 				AB2849721D701B93004C3100 /* NSTimer+XBCategory.m in Sources */,
 				AB2849711D701B93004C3100 /* NSString+XBCategory.m in Sources */,
 				AB2849791D701B93004C3100 /* UIImage+XBCategory.m in Sources */,
 				AB2849771D701B93004C3100 /* UIImage+FEBoxBlur.m in Sources */,
 				AB28497F1D701B93004C3100 /* UITableViewCell+CellAnimation.m in Sources */,
 				AB28496C1D701B93004C3100 /* NSMutableAttributedString+Category.m in Sources */,
-				AB28497A1D701B93004C3100 /* UIImageView+Circle.m in Sources */,
 				AB28497B1D701B93004C3100 /* UIMenuItem+XBCategory.m in Sources */,
 				AB2848E41D701A1E004C3100 /* ViewController.m in Sources */,
 				AB2848E11D701A1E004C3100 /* AppDelegate.m in Sources */,
@@ -609,7 +597,6 @@
 				AB2849761D701B93004C3100 /* UIColor+XBHexColor.m in Sources */,
 				AB2849731D701B93004C3100 /* UIBarButtonItem+Item.m in Sources */,
 				AB2849701D701B93004C3100 /* NSString+Predicate.m in Sources */,
-				AB28497D1D701B93004C3100 /* UITableView+CleanLine.m in Sources */,
 				AB2849741D701B93004C3100 /* UIButton+countDown.m in Sources */,
 				AB2849831D701B93004C3100 /* UIView+XBFrame.m in Sources */,
 				AB2849821D701B93004C3100 /* UIView+XBCategory.m in Sources */,
@@ -619,6 +606,7 @@
 				AB2849691D701B93004C3100 /* NSData+XBCategory.m in Sources */,
 				AB2849801D701B93004C3100 /* UITextView+Placeholder.m in Sources */,
 				AB28496A1D701B93004C3100 /* NSDictionary+XBCategory.m in Sources */,
+				AB28498B1D704021004C3100 /* UITableView+ClearLine.m in Sources */,
 				AB2849781D701B93004C3100 /* UIImage+TYLaunchImage.m in Sources */,
 				AB28497E1D701B93004C3100 /* UITableView+Warn.m in Sources */,
 				AB28496E1D701B93004C3100 /* NSString+DisplayTime.m in Sources */,
@@ -846,6 +834,7 @@
 				AB2849081D701A1E004C3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2849091D701A1E004C3100 /* Build configuration list for PBXNativeTarget "iOS-XBCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -854,6 +843,7 @@
 				AB28490B1D701A1E004C3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB28490C1D701A1E004C3100 /* Build configuration list for PBXNativeTarget "iOS-XBCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -862,6 +852,7 @@
 				AB28490E1D701A1E004C3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

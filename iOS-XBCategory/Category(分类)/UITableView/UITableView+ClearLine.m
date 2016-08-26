@@ -1,15 +1,14 @@
 //
-//  UITableView+CleanLine.m
-//  YDMap
+//  UITableView+ClearLine.m
+//  iOS-XBCategory
 //
-//  Created by sf on 19/7/14.
-//  Copyright (c) 2014 saifing. All rights reserved.
+//  Created by saifing on 16/8/26.
+//  Copyright © 2016年 baiyinxiao. All rights reserved.
 //
 
-#import "UITableView+CleanLine.h"
-#import <CommonCrypto/CommonDigest.h>
+#import "UITableView+ClearLine.h"
 
-@implementation UITableView (CleanLine)
+@implementation UITableView (ClearLine)
 
 - (UITableView *)cleanLine {
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(CGFLOAT_MIN, CGFLOAT_MIN, CGFLOAT_MIN, CGFLOAT_MIN)];
@@ -18,4 +17,5 @@
     [self setTableFooterView:view];
     return self;
 }
+
 @end
