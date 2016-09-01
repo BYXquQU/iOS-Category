@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
 
   s.name         = "XBCategory"
   s.version      = "0.0.1"
-  s.summary      = "iOS commonly used Categories"
+  s.summary      = "iOS Categories"
   s.description  = <<-DESC
-                    iOS Categories
+                    iOS commonly used Categories
                    DESC
   s.homepage     = "https://github.com/JKbai/iOS-Category.git"
   s.license      = "MIT"
