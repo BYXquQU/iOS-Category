@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/JKbai/iOS-Category.git", :tag => "0.0.1" }
 
-  s.source_files  = "iOS-XBCategory/", "iOS-XBCategory/Category(分类)"
+s.source_files  = "Category(分类)", "iOS-XBCategory/Category(分类)/**/*.{h,m}"
 
 
 end
